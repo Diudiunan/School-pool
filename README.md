@@ -1,2 +1,2 @@
-# shopping-web
+# YHY-Campus blog
 my first java web project and as a improvement for me
