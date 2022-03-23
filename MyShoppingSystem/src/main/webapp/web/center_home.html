@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/center_home.css" />
+		<script type="text/jscript" src="../jscript/center_home.js"></script>
+	</head>
+	<body>
+		<div id="HOME">
+			<div id="Hleft" class="Hleft">
+				<div id="left_log">
+					<img id="IMG001" src="../images/H-001.jpg" />
+				</div>
+				<div id="Functions">
+					<div class="left_function">
+						<span>首页</span>
+					</div>
+					<div class="left_function">
+						<span>社区</span>
+					</div>
+					<div class="left_function">
+						<span>聊天室</span>
+					</div>
+					<div class="left_function">
+						<span>小功能</span>
+					</div>
+				</div>
+			</div>
+			<div id="Hright" class="Hright">
+				<div id="header" class="">
+					<div id="header_left" class="header_element">
+						<span id="header_left_text">help</span>
+						<img id="header_left_log" src="../images/icons/icons8-help-64.png" />
+					</div>
+					<div id="header_center" class="header_element">
+						<div id="gsearch_box">
+							<input id="global_search" type="text" value=""/>
+							<button id="gsearch_button" onclick="">搜索</button>
+						</div>
+					</div>
+					<div id="header_right" class="header_element">
+						<div id="user_content" class="header_right_element">
+							<a id="user_home_go" onmouseover="ShowUserHome()" onmouseout="CloseUserHome()" onclick="GoUserHome()">
+								<img id="user_img" src="" alt="用户"/>
+							</a>
+							<div id="user_content_show" onmouseover="ShowUserHome()" onmouseout="CloseUserHome()">
+								<div id="user_content_top">
+									关注
+								</div>
+								<div id="user_content_bottom">
+									<a>
+										个人中心
+									</a>
+								</div>
+							</div>
+						</div>
+						<div id="user_state" class="header_right_element">
+							<a id="user_state_go">
+								<span id="" class="" on>动态</span>
+							</a>
+						</div>
+						<div id="user_message" class="header_right_element">
+							<a id="user_message_go">
+								<span id="" class="">消息</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div id="main" class="">
+					<div id="main_content">
+						<div>
+							内容1
+						</div>
+						<div>
+							内容2
+						</div>
+					</div>
+					<div id="main_right">
+						<div id="lsearch_box">
+							<input id="local_search" type="text"/>
+							<button id="lsearch_button" onclick="">搜索</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,190 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+ 
+html {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background: url(../images/001.png) no-repeat 0px 0px;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+ 
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+		
+.loginDiv{
+	width: 390px;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	background-color: rgba(75, 81, 95, 0.3);
+	box-shadow: 7px 7px 17px rgba(52, 56, 66, 0.5);
+	border-radius: 5px;
+	position: relative;
+}
+
+.DD{
+	width: 80%;
+	height: 90%;
+	position: relative;
+	margin-top: 0px;
+	margin-left: 30px;
+}
+
+#form{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	
+}
+
+#H1{
+	text-align: center;
+	color: blue;
+}
+
+.name_trip{
+	margin-left: 10px;
+	color: red;
+}
+
+.password_trip{
+	margin-left: 10px;
+	color: red;
+}
+
+.ICON{
+	position: relative;
+	width: 18px;
+	height: 15px;
+	cursor: pointer;
+}
+
+.OL {
+	width: 100%;
+	height: 20px;
+	margin-top: 30px;
+	margin-left: 40px;
+	color: azure;
+	position: relative;
+}
+
+.OL input{
+	margin-left: 15px;
+	border-radius: 5px;
+	height: 25px;
+	width: 120px;
+	background-color: rgba(85, 255, 255, 0.0);
+	outline: none;
+	color: black;
+	padding-left: 10px;
+}
+
+#idu{
+	position: relative;
+	margin-top: 30px;
+}
+
+.TX{
+	width: 70px;
+	text-align: left;
+	display: inline-block;
+}
+
+.VP{
+	width: 100%;
+	height: 20px;
+	position: relative;
+	margin-top: 30px;
+	margin-left: 10px;
+	color: azure;
+	display: flex;
+}
+
+.verify_trip{
+	width: 60%;
+	color: red;
+	
+}
+
+.verify_trip span{
+	float: left;
+	margin-left: 40px;
+}
+
+.verify{
+	width: 50px;
+	height: 20px;
+	background-color: transparent;
+	border-radius: 5px;
+	outline: none;
+	color: black;
+	padding-left: 4px;
+	float: right;
+}
+
+#VI{
+	width: 40%;
+	float: right;
+}
+
+#Vicon{
+	width: 50%;
+}
+
+#CVI{
+	font-size: 10px;
+	color: hotpink;
+	cursor: pointer;
+}
+
+.DB{
+	position: relative;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.DB input{
+	background-color: skyblue;
+	color: black;
+	padding-left: 0px;
+	cursor: pointer;
+}
+
+.button {
+	border-color: cornsilk;
+	color: aliceblue;
+	border-style: hidden;
+	border-radius: 5px;
+	width: 100px;
+	height: 31px;
+	font-size: 16px;
+	margin-left: 28px;
+}
+
+.FD{
+	height: 20%;
+	width: 50%;
+	position: relative;
+	float: right;
+	font-size: 12px;
+}
+
+.tip{
+	font-style: italic;
+	margin-left: 50px;
+}
+
+.DO{
+	text-decoration: none;
+}

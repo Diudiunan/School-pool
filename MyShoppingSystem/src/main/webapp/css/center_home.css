@@ -1,0 +1,211 @@
+
+html{
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background: url(../images/003.jpg) no-repeat 0px 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+body{
+	position: relative;
+	left: 2%;
+	width: 90%;
+	height: 100%;
+}
+
+/*----------------------------------------------------------------------->*/
+/*界面容器*/
+#HOME{
+	position: relative;
+	width: 100%;
+	min-width: 820px;
+	height: 90%;
+	display: flex;
+}
+/*-----------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------->*/
+/*界面左侧*/
+#Hleft{
+	position: relative;
+	display: inline;
+	background-color: rgb(23, 209, 194);
+	width: 10%;
+	height: 600px;
+}
+#left_log{
+	width: 100%;
+}
+#IMG001{
+	border-radius: 8px;
+	width: 100%;
+}
+#Functions{
+	position: relative;
+}
+.left_function{
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	color: blue;
+}
+/*-----------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------->*/
+/*界面右部*/
+#Hright{
+	position: relative;
+	display: inline-block;
+	width: 90%;
+	height: 600px;
+}
+/*-------------------------------------------->*/
+/*界面右部头部框设置*/
+#header{ 
+	position: relative;
+	display: block;
+	width: 100%;
+	min-width: 900px;
+	height: 6%;
+	background-color: rgb(85, 170, 255);
+	min-height: ;
+	border-color: rgb(0, 255, 255);
+	border-width: 1px;
+	border-bottom-width: 3px;
+	border-style: solid;
+}
+
+.header_element{
+	display: inline-block;
+}
+
+#header_left{
+	width: 20%;
+	height: 100%;
+}
+#header_left_text{
+	color: black;
+	font-weight: 800;
+	font-size: larger;
+	text-shadow: 2px 0px 0px rgba(67, 67, 67, 0.9);
+}
+#header_left_log{
+	height: 80%;
+}
+#header_center{
+	width: 40%;
+	height: 90%;
+}
+#gsearch_box{
+	text-align: center;
+	height: 90%;
+}
+#global_search{
+	border-radius: 3px;
+	border-color: rgb(170, 255, 255);
+	height: 62.5%;
+	background-color: rgb(170, 255, 255);
+}
+#gsearch_button{
+	border-radius:8px;
+	background-color: rgb(255, 85, 0);
+}
+#header_right{
+	position: relative;
+	width: 30%;
+	text-align: right;
+}
+.header_right_element{
+	display: inline-block;
+}
+#user_content{
+	width: 30%;
+}
+#user_home_go{
+	cursor: pointer;
+}
+#user_content_show{
+	z-index: 1;
+	position: absolute;
+	display: none;
+	width: 30%;
+	height: 300%;
+	background-color: rgb(255, 170, 127);
+	text-align: left;
+}
+#user_content_top{
+	
+}
+#user_content_bottom{
+	
+}
+#user_state{
+	
+}
+#user_state_go{
+	
+}
+#user_message{
+	
+}
+#user_message_go{
+	
+}
+/*界面右部头框部设置结束*/
+/*--------------------------------------------*/
+
+/*-------------------------------------------->*/
+/*主要内容*/
+#main {
+	display: flex;
+	width: 100%;
+	min-width: 900px;
+	height: 94%;
+}
+#main_content{
+	display: inline-block;
+	width: 85%;
+}
+/*--------------------------------------------*/
+
+/*-------------------------------------------->*/
+/*界面右部内容框设置*/
+#main_right{
+	position: relative;
+	display: inline-block;
+	width: 15%;
+	border-left-style: solid;
+	border-left-color: rgb(204, 204, 204);
+	border-left-width: 1px;
+}
+#lsearch_box{
+	position: relative;
+	float: right;
+	width: 100%;
+	height: 5%;
+}
+#local_search{
+	display: inline-block;
+	width: 61%;
+	background-color: rgb(117, 176, 176);
+	border-radius: 3px;
+	border-color: rgb(170, 255, 255);
+	vertical-align: bottom;
+}
+#lsearch_button{
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 30%;
+	border-radius: 3px;
+	font-size: xx-small;
+	text-align: center;
+	background-color: rgb(0, 157, 236);
+}
+/*界面右部内容框设置结束*/
+/*--------------------------------------------*/
+/*-----------------------------------------------------------------------*/

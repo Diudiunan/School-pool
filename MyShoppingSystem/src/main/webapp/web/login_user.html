@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/login_userc.css" />
+		<script src="../jscript/login_userj.js" type="text/jscript"></script>
+	</head>
+	<body>
+		<div class="loginDiv">
+			<div class="DD">
+		        <form action="/MyShoppingSystem/ser/loginhome" id="form" method="post" onsubmit="return verifyfrom(this)">
+		            <h1 id="H1">登陆</h1>
+					<div class="OL" id="idu">
+						<label class="name_trip">
+						<span class="TX">用户名</span>
+						<input class="userID" type="text" name="ID" onblur="LOFO(this)">
+						</label>
+					</div>
+		            <div class="OL" id="passw">
+						<label class="password_trip">
+						<span class="TX">密码</span>
+						<input class="password" type="password" name="PASSWORD" onblur="checkpass(this)">
+						</label>
+						<img class="ICON" id="ICON1" value="1" src="../images/icons/icons8-closed-eye-24.png" onclick="changeicon1(this.value)" />
+					</div>
+					<div class="VP">
+						<label class="verify_trip">
+							<span class="NP">验证码</span>
+							<input class="verify" type="text" name="vcode" onblur="CVCODE(this)"/>
+						</label>
+						<div id="VI">
+						<img id="Vicon" src="/MyShoppingSystem/ser/getverify" alt="验证码"/>
+						<a id="CVI" onclick="ChangeVicon()">换一张</a>
+						</div>
+					</div>
+		            <div class="DB">
+		                <input type="button" id="Submit" class="button" value="登陆">
+		                <input type="reset" class="button"  value="重置">
+		            </div>
+		        </form>
+			</div>
+			<div class="FD">
+			<i class="tip">无账号？</i>
+			<a class="DO" href="sign_user.html" target="_self">注册</a>
+			</div>
+		    </div>
+	</body>
+</html>
